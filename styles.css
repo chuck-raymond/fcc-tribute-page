@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 63%, 25%);
+  font-family: 'Lacquer', sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+main {
+  border-radius: 15px;
+  display: inline-block;
+  /* border: 3px solid rgb(1, 20, 1); */
+}
+
+header {
+  /* border: 3px solid green; for layout purposes */
+  background-color: rgb(0, 0, 0);
+  padding: 1.5em;
+  text-align: center;
+  font-size: 35px;
+  border-radius: 10px;
+  max-width: 90%;
+  top: 15px;
+  margin: 0 auto;
+  margin-bottom: 2em;
+}
+
+#img-div {
+  /* border: 3px solid green; for layout purposes */
+  background-color: rgb(247, 4, 4);
+  padding: 1em;
+  max-width: 90%;
+  border-radius: 10px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  margin-bottom: 2em;
+}
+
+img {
+  /* border: 3px solid green; for layout purposes */
+  max-width: 100%;
+  padding: 1em;
+  text-align: center;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+#img-caption {
+  /* border: 3px solid green; for layout purposes */
+  color: #0e0505;
+  text-align: center;
+}
+
+article {
+  width: 90%;
+  margin: 0 auto;
+  background-color: rgb(0, 0, 0);
+}
+
+h1,
+p {
+  /* border: 3px solid green; for layout purposes */
+  color: #f93636;
+  padding: 1.5em;
+  font-size: 35px;
+  border-radius: 10px;
+  max-width: 90%;
+  top: 15px;
+  margin: 0 auto;
+}
